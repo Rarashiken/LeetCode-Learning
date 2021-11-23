@@ -1,0 +1,6 @@
+bisect — Array bisection algorithm
+
+bisect.bisect_left(a, x, lo=0, hi=len(a), *, key=None)
+和
+bisect.bisect_right(a, x, lo=0, hi=len(a), *, key=None) OR bisect.bisect(a, x, lo=0, hi=len(a)) 的区别：
+left返回二分查找后最左边的第一个元素在数组中的位置，right和直接bisect返回二分后锚点右边的第一个元素的位置。
